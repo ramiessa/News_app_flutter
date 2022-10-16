@@ -19,7 +19,7 @@ class _CalculatorState extends State<Calculator> {
         title: const Text(
           "Calculator",
           style: TextStyle(
-            fontSize: 22,
+            fontSize: 23,
           ),
         ),
       ),
