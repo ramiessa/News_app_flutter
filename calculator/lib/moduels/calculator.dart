@@ -16,7 +16,12 @@ class _CalculatorState extends State<Calculator> {
       backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Colors.black,
-        title: const Text("Calculator"),
+        title: const Text(
+          "Calculator",
+          style: TextStyle(
+            fontSize: 22,
+          ),
+        ),
       ),
       body: Column(
         children: [
